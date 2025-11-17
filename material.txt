@@ -32,3 +32,7 @@ Note: manifest.json ==>> used in mobile devices
 
 1:36:55*
 1:38:20*
+2:12:25
+2:16:24-2:16:28
+2:20:10
+js open source library (2:24:05): https://github.com/facebook/react/tree/main
