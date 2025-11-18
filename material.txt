@@ -36,3 +36,10 @@ Note: manifest.json ==>> used in mobile devices
 2:16:24-2:16:28
 2:20:10
 js open source library (2:24:05): https://github.com/facebook/react/tree/main
+
+
+========================== videos 5 ===================
+Note: kisi v button par kux action krwana hai to onClick ka use karte hai.
+Hooks path: https://github.com/facebook/react/blob/main/packages/react/src/ReactHooks.js
+        or: https://github.com/facebook/react/tree/main            ==>> package -> react -> src -> ReactHooks
+Note: React control UI updation (UI updation ko react control krta hai)
