@@ -140,3 +140,143 @@ Only call Hooks from React function components or custom Hooks: Do not call them
 
 
 ==================================================== props in react ========================================================
+https://www.google.com/search?q=props+in+react+js&oq=props+in+react+js&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTEwMjA2ajBqN6gCCLACAfEF5C6DXcwwTHE&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=syntax+for+props+in+react+js&oq=syntax+for+props+in+react+js&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIHCAIQABjvBdIBCDgzNDFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+
+In ReactJS, "props" (short for properties) are a mechanism for passing data from a parent component to a child component. They are a fundamental concept for building reusable and dynamic components in React.
+Here's a breakdown of key aspects of props in ReactJS:
+One-Way Data Flow: React enforces a unidirectional data flow, meaning data primarily flows down from parent components to child components via props. Child components cannot directly modify the props they receive.
+Immutability: Props are considered read-only within the child component. Once a component receives props, it should not attempt to change them. If a component needs to manage data that can change over time, it should use React's state mechanism instead.
+Passing Data: You pass props to a child component by adding them as attributes to the component's JSX tag, similar to how you would add attributes to an HTML element.
+Code
+
+    // ParentComponent.js
+    import ChildComponent from './ChildComponent';
+
+    function ParentComponent() {
+      const name = "Alice";
+      const age = 30;
+
+      return (
+        <ChildComponent userName={name} userAge={age} />
+      );
+    }
+Accessing Props: Inside the child component, you can access the passed props through the props object, which is passed as an argument to functional components or accessed via this.props in class components.
+Code
+
+    // ChildComponent.js
+    function ChildComponent(props) {
+      return (
+        <div>
+          <p>Name: {props.userName}</p>
+          <p>Age: {props.userAge}</p>
+        </div>
+      );
+    }
+Making Components Reusable: Props enable you to create generic components that can be customized with different data. For example, a Button component could accept a text prop to display different labels or a color prop to change its appearance.
+Callback Functions as Props: You can also pass functions as props from a parent to a child. This allows child components to communicate back to the parent and trigger actions or update the parent's state.
+Code
+
+    // ParentComponent.js
+    import ChildComponent from './ChildComponent';
+
+    function ParentComponent() {
+      const handleClick = () => {
+        console.log("Button clicked in child!");
+      };
+
+      return (
+        <ChildComponent onButtonClick={handleClick} />
+      );
+    }
+
+    // ChildComponent.js
+    function ChildComponent(props) {
+      return (
+        <button onClick={props.onButtonClick}>Click Me</button>
+      );
+    }
+
+
+----------------------------------------------------------------------
+In React.js, "props" (short for properties) are a mechanism for passing data from a parent component to a child component. They are read-only and help maintain a unidirectional data flow.
+Passing Props (from Parent to Child)
+Props are passed to a child component as attributes within its JSX tag, similar to HTML attributes.
+Code
+
+// ParentComponent.js
+import React from 'react';
+import ChildComponent from './ChildComponent';
+
+function ParentComponent() {
+  const userName = "Alice";
+  const userAge = 30;
+
+  return (
+    <div>
+      <h1>Parent Component</h1>
+      <ChildComponent name={userName} age={userAge} />
+    </div>
+  );
+}
+
+export default ParentComponent;
+Accessing Props (in Child Component)
+1. Functional Components (using props object):
+In a functional component, the props object is received as an argument to the function. Individual props are accessed using dot notation.
+Code
+
+// ChildComponent.js
+import React from 'react';
+
+function ChildComponent(props) {
+  return (
+    <div>
+      <p>Name: {props.name}</p>
+      <p>Age: {props.age}</p>
+    </div>
+  );
+}
+
+export default ChildComponent;
+2. Functional Components (using destructuring):
+Destructuring the props object within the function signature is a common and cleaner way to access props.
+Code
+
+// ChildComponent.js
+import React from 'react';
+
+function ChildComponent({ name, age }) { // Destructuring props here
+  return (
+    <div>
+      <p>Name: {name}</p>
+      <p>Age: {age}</p>
+    </div>
+  );
+}
+
+export default ChildComponent;
+3. Class Components:
+In class components, props are accessed via this.props.
+Code
+
+// ChildComponent.js
+import React, { Component } from 'react';
+
+class ChildComponent extends Component {
+  render() {
+    return (
+      <div>
+        <p>Name: {this.props.name}</p>
+        <p>Age: {this.props.age}</p>
+      </div>
+    );
+  }
+}
+
+export default ChildComponent;
+Key Points:
+Read-Only: Props cannot be modified by the child component. They are passed down from the parent and remain constant within the child's scope.
+Any Data Type: Props can be of any JavaScript data type, including strings, numbers, booleans, objects, arrays, and functions. 
+Flow: Props facilitate a one-way data flow from parent to child, promoting predictable state management.    
