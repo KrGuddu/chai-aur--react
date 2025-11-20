@@ -43,3 +43,22 @@ Note: kisi v button par kux action krwana hai to onClick ka use karte hai.
 Hooks path: https://github.com/facebook/react/blob/main/packages/react/src/ReactHooks.js
         or: https://github.com/facebook/react/tree/main            ==>> package -> react -> src -> ReactHooks
 Note: React control UI updation (UI updation ko react control krta hai)
+
+========================= videos 6 ==================
+Note: virtual dom ko fiber algorithm duara update kiya jata hai.
+reconcialtion: ye ek algorithm hai jo ki reconsider krti hai ki kisko update krna hai kisko nhi.         ==>> 03:05:45
+read fiber in react here ==>> https://github.com/acdlite/react-fiber-architecture
+
+3:20:15
+
+======================================= video 7 ==============================
+Note: tailwind css me img tag ko closing dena jaruri hota hai ==>> <img><img/>   or, <img />
+3:30:00
+rfce ==>> react snippet ==>> give react function components
+
+Note: In react component behave like html   ==>> 3:33:25
+3:40:00
+--> how to pass props, handle props/properties
+
+====================================== counter interview question =====================
+Note: useState, jitne v update bhejne hai UI or varialbe me usko batches me bhejta hai   ==>>  3:52:40

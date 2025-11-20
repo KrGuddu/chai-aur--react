@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
 
-  let [counter, setCounter] = useState(15)
+  const [counter, setCounter] = useState(15)               // yha par ham let or const koe v use kar skte hai but array hai to const best hoga
 
   // let counter = 15
 

@@ -1,0 +1,142 @@
+================================= Hook in react ==============================================
+
+https://www.google.com/search?q=react+hook+syntax&oq=react+hook+syntax+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDkwMzdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.w3schools.com/react/react_usestate.asp
+
+
+
+React Hooks are functions that let you "hook into" React state and lifecycle features from function components. They allow you to write reusable stateful logic without writing class components.
+Here's a look at the syntax for some common React Hooks:
+1. useState Hook:
+Used for managing local component state.
+Code
+
+import React, { useState } from 'react';
+
+function MyComponent() {
+  const [stateVariable, setStateVariable] = useState(initialValue); 
+  // stateVariable: the current state value
+  // setStateVariable: a function to update the state
+  // initialValue: the initial value of the state
+
+  // Example:
+  const [count, setCount] = useState(0); 
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+}
+2. useEffect Hook:
+Used for performing side effects in functional components (e.g., data fetching, DOM manipulation, subscriptions).
+Code
+
+import React, { useState, useEffect } from 'react';
+
+function MyComponent() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    // This function runs after every render (by default)
+    // or when dependencies change.
+    // Perform side effects here.
+    fetch('https://api.example.com/data')
+      .then(response => response.json())
+      .then(setData);
+
+    // Optional cleanup function (runs before the component unmounts
+    // or before the effect re-runs if dependencies change).
+    return () => {
+      // Cleanup logic
+    };
+  }, [/* dependencies array - optional */]); 
+  // If empty array [], effect runs only once after initial render.
+  // If omitted, effect runs after every render.
+
+  return (
+    <div>
+      {data ? <p>{data.message}</p> : <p>Loading...</p>}
+    </div>
+  );
+}
+3. useContext Hook:
+Used for accessing values from a React Context.
+Code
+
+import React, { useContext, createContext } from 'react';
+
+const MyContext = createContext('default value');
+
+function MyComponent() {
+  const contextValue = useContext(MyContext);
+
+  return <p>Context Value: {contextValue}</p>;
+}
+4. useRef Hook:
+Used for creating mutable ref objects that persist across renders and can be used to access DOM elements or store mutable values.
+Code
+
+import React, { useRef } from 'react';
+
+function MyComponent() {
+  const inputElement = useRef(null); // initial value is null
+
+  const focusInput = () => {
+    inputElement.current.focus();
+  };
+
+  return (
+    <div>
+      <input type="text" ref={inputElement} />
+      <button onClick={focusInput}>Focus Input</button>
+    </div>
+  );
+}
+Custom Hooks:
+You can also create your own custom Hooks by defining a function that starts with use and calls other Hooks internally.
+Code
+
+function useMyCustomHook(initialValue) {
+  const [value, setValue] = useState(initialValue);
+  // ... more logic using other Hooks
+
+  return [value, setValue];
+}
+
+function AnotherComponent() {
+  const [myValue, setMyValue] = useMyCustomHook(10);
+  // ...
+}
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+5. useReducer Hook:
+An alternative to useState for more complex state logic, often when the next state depends on the previous one or involves multiple sub-values.
+JavaScript
+
+import React, { useReducer } from 'react';
+
+function reducer(state, action) {
+  // ... logic to update state based on action
+  return newState;
+}
+
+function MyComponent() {
+  const [state, dispatch] = useReducer(reducer, initialState, initFunction);
+  // ...
+}
+reducer: A function that takes the current state and an action, and returns the new state.
+initialState: The initial state value.
+initFunction (optional): A function to lazily initialize the state.
+dispatch: A function to dispatch actions to the reducer.
+Key Rules of Hooks:
+Only call Hooks at the top level: Do not call Hooks inside loops, conditions, or nested functions.
+Only call Hooks from React function components or custom Hooks: Do not call them from regular JavaScript functions or class components.
+
+
+
+==================================================== props in react ========================================================
