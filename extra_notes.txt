@@ -199,7 +199,7 @@ Code
     }
 
 
-----------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 In React.js, "props" (short for properties) are a mechanism for passing data from a parent component to a child component. They are read-only and help maintain a unidirectional data flow.
 Passing Props (from Parent to Child)
 Props are passed to a child component as attributes within its JSX tag, similar to HTML attributes.
