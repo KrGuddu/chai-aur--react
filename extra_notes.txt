@@ -280,3 +280,4 @@ Key Points:
 Read-Only: Props cannot be modified by the child component. They are passed down from the parent and remain constant within the child's scope.
 Any Data Type: Props can be of any JavaScript data type, including strings, numbers, booleans, objects, arrays, and functions. 
 Flow: Props facilitate a one-way data flow from parent to child, promoting predictable state management.    
+
