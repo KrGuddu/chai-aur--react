@@ -71,4 +71,5 @@ Q6. why use className over class in react
 class ==>> reserve keyword
 className =>> not reserve keyword
 
-style={{}}  style for state impliment 
+
+style={{}}  ==>> syntax: style for state implements
