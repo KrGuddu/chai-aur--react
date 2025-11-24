@@ -51,7 +51,7 @@ read fiber in react here ==>> https://github.com/acdlite/react-fiber-architectur
 
 3:20:15
 
-======================================= video 7 ==============================
+======================================= video 7 ===================================================
 Note: tailwind css me img tag ko closing dena jaruri hota hai ==>> <img><img/>   or, <img />
 3:30:00
 rfce ==>> react snippet ==>> give react function components
