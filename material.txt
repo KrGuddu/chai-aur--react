@@ -66,7 +66,7 @@ Note: In react component behave like html   ==>> 3:33:25
 ======================= video 8 =================== counter interview question =====================
 *Note: useState, jitne v update bhejne hai UI or varialbe me usko batches me bhejta hai   ==>>  3:52:40
 
-======================================= video 9 ==============================
+======================================= video 9 ====================================================
 Q6. why use className over class in react
 class ==>> reserve keyword
 className =>> not reserve keyword
