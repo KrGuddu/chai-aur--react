@@ -280,3 +280,37 @@ Key Points:
 Read-Only: Props cannot be modified by the child component. They are passed down from the parent and remain constant within the child's scope.
 Any Data Type: Props can be of any JavaScript data type, including strings, numbers, booleans, objects, arrays, and functions. 
 Flow: Props facilitate a one-way data flow from parent to child, promoting predictable state management.
+
+
+=============================================================================
+05_password_generator project
+
+
+
+import { useCallback, useState } from 'react'
+import './App.css'
+
+function App() {
+  const [length, setLength] = useState(8);                   //length ko track krne ke liye useState lagega
+  const [numberAllowed, setNumberAllowed] = useState(false);
+  const [charAllowed, setCharAllowed] = useState(false);
+  const [password, setPassword] = useState("")
+
+  const passwordGenerator = useCallback(() => {
+    let pass = ""
+    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+
+    if (numberAllowed) str += "0123456789"
+    if (charAllowed) str += "!@#$%^&*()_+-={}[]|\:;<>,.?/~'"
+  }, [
+    length, numberAllowed, charAllowed, setPassword
+  ])
+
+  return (
+    <>
+      <h1 className='text-4xl text-center text-white'>Password Generator</h1>
+    </>
+  )
+}
+
+export default App

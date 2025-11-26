@@ -1,3 +1,5 @@
+code github: https://github.com/hiteshchoudhary/chai-aur-react
+
 47:23 : create react project with react
 51:00 : create react project with react + vite
 56:38: delete
@@ -77,4 +79,13 @@ style={{}}  ==>> syntax: style for state implements
 
 ============================ videos 10 ======================================================
 4:23:49
-4:35:33
+Q. short hand notation for constional statements (if, if else, etc)
+4:35:33 
+Q. How to generate random number       ==>> 4:37:8
+
+4:42:18  ==>App.css hta do
+4:44:02
+
+*4:56:36
+5:2:25
+5:7:40   ==>> revise project
