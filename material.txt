@@ -4,7 +4,6 @@ code github: https://github.com/hiteshchoudhary/chai-aur-react
 51:00 : create react project with react + vite
 56:38: delete
 
-
  
 Q1. diff b/w npm vs npx 
 npm: node package manager
