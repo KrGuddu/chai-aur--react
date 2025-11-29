@@ -4,6 +4,8 @@ code github: https://github.com/hiteshchoudhary/chai-aur-react
 51:00 : create react project with react + vite
 56:38: delete
 
+Q. what is ls in terminal command
+
  
 Q1. diff b/w npm vs npx 
 npm: node package manager
@@ -90,3 +92,5 @@ Q. How to generate random number       ==>> 4:37:8
 5:7:40        ==>> revise project
 
 =================================== videos 11 ================================
+5:34:31: end here to design custom Hooks, after this start cumponent reusable
+
