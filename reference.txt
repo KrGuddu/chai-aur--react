@@ -1,2 +1,9 @@
+My github Account: https://github.com/KrGuddu
+code github: https://github.com/hiteshchoudhary/chai-aur-react
+
+
+js open source library (2:24:05): https://github.com/facebook/react/tree/main
+                      Hooks path: https://github.com/facebook/react/blob/main/packages/react/src/ReactHooks.js
+
 React Tutorial: https://www.geeksforgeeks.org/reactjs/react/
 React Quiz: https://www.geeksforgeeks.org/reactjs/practice-react-online/
