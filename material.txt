@@ -98,3 +98,5 @@ Q7: Api Handling(How to handle Api)
 Q8. Application me color code kaise dete hai?
 
 
+==============================
+difference b/w "a tag, link, navlink"        ==>> a tag ka use karne se pure web page refresh hoti hai aur react me refreshing/reloading ka koe concept hi nhi hai to a tag ka use nhi karte hai uske jagah par link tag ka use krte hai, aur link tag me ecternal stylling nhi kar pate hai to navlink ka use krte hai.
