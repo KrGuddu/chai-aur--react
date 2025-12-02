@@ -9,7 +9,13 @@ React Tutorial: https://www.geeksforgeeks.org/reactjs/react/
 React Quiz: https://www.geeksforgeeks.org/reactjs/practice-react-online/
 
 
+NOtes for portolio:- portolio me social media account(github,linkedin) ka section jarur de(like 6:17:40 =>react part1 hiteshchoudhary videos)
+
 
 =============================notes for error handling =============
 https://www.freecodecamp.org/news/effective-error-handling-in-react-applications/
 chatgpt: https://chatgpt.com/c/692e8838-4e6c-8321-bab8-e80be8885c4b
+
+
+
+Write this 2 topics in our notes==>> React DevTools, Debugging with console & breakpoints 
