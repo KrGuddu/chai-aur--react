@@ -99,4 +99,19 @@ Q8. Application me color code kaise dete hai?
 
 
 ==============================
-difference b/w "a tag, link, navlink"        ==>> a tag ka use karne se pure web page refresh hoti hai aur react me refreshing/reloading ka koe concept hi nhi hai to a tag ka use nhi karte hai uske jagah par link tag ka use krte hai, aur link tag me ecternal stylling nhi kar pate hai to navlink ka use krte hai.
+difference b/w "a tag/anchor tag, link, navlink"        ==>> a tag ka use karne se pure web page refresh hoti hai aur react me refreshing/reloading ka koe concept hi nhi hai to a tag ka use nhi karte hai uske jagah par link tag ka use krte hai, aur link tag me ecternal stylling nhi kar pate hai to navlink ka use krte hai.
+*6:29:35
+self practice: 6:31:53
+react router explanation  => 6:37:00
+<home />  ==> this tag is known as self closing tag
+*6:55:55  ==>  path='user:userid'
+Note: elements = components
+*To fetch github flowers using Api call ==> 7:1:10
+7:08:00
+
+How to call Api  =>javascript
+
+
+========================================
+*7:29:00
+start from: 7:30:00
