@@ -18,5 +18,6 @@ chatgpt: https://chatgpt.com/c/692e8838-4e6c-8321-bab8-e80be8885c4b
 
 
 
+
 Write this 2 topics in our notes==>> React DevTools, Debugging with console & breakpoints 
 ssr(Server Reporting Services) error handling
