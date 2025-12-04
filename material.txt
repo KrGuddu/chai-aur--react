@@ -64,7 +64,7 @@ Note: In react component behave like html   ==>> 3:33:25
 **devui.io    ==>> recommendend to visit all about of this website for best ui design and code 
 
 
-======================= video 8 =================== counter interview question =========================
+======================= video 8 =================== counter interview question ==========================
 *Note: useState, jitne v update bhejne hai UI or varialbe me usko batches me bhejta hai   ==>>  3:52:40
 
 ======================================= video 9 ====================================================
