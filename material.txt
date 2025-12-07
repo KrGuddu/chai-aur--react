@@ -2,7 +2,7 @@
 51:00 : create react project with react + vite
 56:38: delete
 
-Q. what is ls in terminal command
+Q. what is ls in terminal command 
 
  
 Q1. diff b/w npm vs npx 
