@@ -24,7 +24,7 @@ Note: 1. To jump next folder: cd
       3. to clear/delete/clean terminal: 
 1:3:00
 
-============================  video 3 =========================================================
+============================  video 3 ==========================================================
 Q5. package.json vs package-lock.json
 Note: manifest.json ==>> used in mobile devices
       robots.txt  ==>> used in search engine
