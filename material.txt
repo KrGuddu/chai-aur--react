@@ -127,3 +127,10 @@ Q. all about conditional return?
 ============================== 2nd part =============================
 2nd project from: 8:0:0
 8:6:45
+**19:10 - 19:40
+27:25    ==> prev/old todo
+39:45:00   =>> Context functionality is end here, start local storage functionality
+Q. useEffect snippet means
+can i use multiple useEffect hook ==> ans: yes
+***53:50
+1:7:30    ==>> Auto return   ()
