@@ -118,6 +118,7 @@ start from: 7:30:00
 
 
 
+
 useState([]) or useState(null) q dete hai, and kya difference hai?
 Q. all about conditional return?
 
@@ -138,3 +139,7 @@ Q. can i use multiple useEffect hook ==> ans: yes
 
 ***53:50
 1:7:30    ==>> Auto return   ()
+
+
+==========================
+Note: data flow reduct me context api se badhiya hai
