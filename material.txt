@@ -142,4 +142,7 @@ Q. can i use multiple useEffect hook ==> ans: yes
 
 
 ==========================
-Note: data flow reduct me context api se badhiya hai
+Note: 1. data flow redux me context api se badhiya hai
+2. redux is a independent library. (sabke sath use kar kar skte hai line react, vue, angular, etc )
+
+redux chrome extension  ==>> 1:27:25
