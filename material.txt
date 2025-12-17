@@ -2,6 +2,8 @@
 51:00 : create react project with react + vite
 56:38: delete
 
+
+Note: We can create a react project with CRA or Vite or parcel or next's.
 Q. what is ls in terminal command    
  
 Q1. diff b/w npm vs npx 
@@ -141,13 +143,53 @@ Q. can i use multiple useEffect hook ==> ans: yes
 1:7:30    ==>> Auto return   ()
 
 
-============================================
+============================================ 
 Note: 1. data flow redux me context api se badhiya hai
 2. redux is a independent library. (sabke sath use kar kar skte hai line react, vue, angular, etc )
 
 redux chrome extension  ==>> 1:27:25
 
-==========================================
+========================================== Redux Toolkit(RTK) =================
+Steps to Initialized RTK project
 Step1. Install react + vite
 Step2. Optional=> install tailwind and configure this
 Step3. install node or bun using (node i) or (bun i) 
+Step4. npm run dev (when using nodejs)
+       bun dev (when using bun)
+       npm start (when using CRA)
+
+Step to install bun 
+1. open powershell and write (powershell -c "irm bun.sh/install.ps1 | iex")
+2. then restatrt vs code
+3. then check version of bun using (bun --version)  ==> agr version nhi ata hai to environment varialbe me jakar PATH manually add karo
+4. then go on the project folder and run (bun dev)
+
+
+⚠️ Important Note (Real advice)
+Agar learning React + Redux Toolkit pe focus hai, to npm bilkul fine hai. Bun optional hai.
+
+Safe option:
+npm install
+npm run dev
+
+Note: jab application bun se bana rhe ho to project ko run npm se v kar skte ho aur bun se v koe issue nhi hai (like (num run dev ) or (bun dev)).
+Note: node or bun is a environment.
+
+
+configure store
+create a reducer
+
+
+
+initial state is must be array or object
+slice is a bigger version of reducer. reducer is a functionality.
+Every slice have a initialState
+reducer have property and function. property ke under function likhe/reference jate hai. [use callback function. ex addTodo: ()=>{} ]
+
+Note: nanoid is generate a unique id
+
+*2:6:20
+install tailwind
+*2:10:44
+2:16:40 =>RTK summary
+
