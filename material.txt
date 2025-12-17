@@ -146,3 +146,8 @@ Note: 1. data flow redux me context api se badhiya hai
 2. redux is a independent library. (sabke sath use kar kar skte hai line react, vue, angular, etc )
 
 redux chrome extension  ==>> 1:27:25
+
+==========================================
+Step1. Install react + vite
+Step2. Optional=> install tailwind and configure this
+Step3. install node or bun using (node i) or (bun i) 
