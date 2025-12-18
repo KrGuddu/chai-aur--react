@@ -149,7 +149,7 @@ Note: 1. data flow redux me context api se badhiya hai
 
 redux chrome extension  ==>> 1:27:25
 
-========================================== Redux Toolkit(RTK) =====================
+========================================== Redux Toolkit(RTK) ======================
 Steps to Initialized RTK project
 Step1. Install react + vite
 Step2. Optional=> install tailwind and configure this
