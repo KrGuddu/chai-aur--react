@@ -13,7 +13,6 @@ function useCurrencyInfo(currency) {
     console.log(data);
 
     return data
-
 }
 
 export default useCurrencyInfo;
