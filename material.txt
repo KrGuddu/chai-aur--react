@@ -12,7 +12,7 @@ npx: node package executor
 create-react-app: this is a utility/software 
 
 Q2. why vite or parcel is better than utility, why are use over this ?
-Ans: ===>utility contain neccessary as well as unnecessary heavy package or file while vite/parcel contain less heavy packege/file than utility.
+Ans: ====>utility contain neccessary as well as unnecessary heavy package or file while vite/parcel contain less heavy packege/file than utility.
 
 q3. diff b/w dir (for window) vs ls (for mac/linux)
 Note: 1. to run/start the react project: npm run start or npm start
