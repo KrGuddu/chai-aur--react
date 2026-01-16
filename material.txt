@@ -8,11 +8,11 @@ Q. what is ls in terminal command
  
 Q1. diff b/w npm vs npx 
 npm: node package manager
-npx: node package executor
+npx: node package executor 
 create-react-app: this is a utility/software 
 
 Q2. why vite or parcel is better than utility, why are use over this ?
-Ans: ===>utility contain neccessary as well as unnecessary heavy package or file while vite/parcel contain less heavy packege/file than utility.
+Ans: ====>utility contain neccessary as well as unnecessary heavy package or file while vite/parcel contain less heavy packege/file than utility.
 
 q3. diff b/w dir (for window) vs ls (for mac/linux)
 Note: 1. to run/start the react project: npm run start or npm start
@@ -26,7 +26,7 @@ Note: 1. To jump next folder: cd
       3. to clear/delete/clean terminal: 
 1:3:00
 
-============================  video 3 ==========================================================
+============================  video 3 ============================================================
 Q5. package.json vs package-lock.json
 Note: manifest.json ==>> used in mobile devices
       robots.txt  ==>> used in search engine
@@ -40,13 +40,13 @@ Note: manifest.json ==>> used in mobile devices
 js open source library (2:24:05): https://github.com/facebook/react/tree/main
 
 
-========================== videos 5 ===========================================
+========================== videos 5 ============================================
 Note: kisi v button par kux action krwana hai to onClick ka use karte hai.
 Hooks path: https://github.com/facebook/react/blob/main/packages/react/src/ReactHooks.js
         or: https://github.com/facebook/react/tree/main            ==>> package -> react -> src -> ReactHooks
 Note: React control UI updation (UI updation ko react control krta hai)
 
-========================= videos 6 ==================
+========================= videos 6 ====================
 Note: virtual dom ko fiber algorithm duara update kiya jata hai.
 reconcialtion: ye ek algorithm hai jo ki reconsider krti hai ki kisko update krna hai kisko nhi.         ==>> 03:05:45
 read fiber in react here ==>> https://github.com/acdlite/react-fiber-architecture
